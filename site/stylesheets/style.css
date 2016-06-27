@@ -16,6 +16,9 @@ body {
 	text-align:left;
 }
 #content {
+	position:absolute;
+	padding-bottom:10px;
+	width:50%;
 	border-right:1px dashed #FF7F50;
 	border-left:1px dashed #FF7F50;
 	border-bottom:1px dashed #FF7F50;
@@ -30,12 +33,15 @@ h1 {
 	margin:0px;
 }
 footer {
-	font-size:60%;
+	font-size:75%;
+	font-weight:800;
+	position:absolute;
+	bottom:0px;
 	margin:10px;
 }
 article {
 	padding:10px;
-	width:50%;
+	width:100%;
 	margin-bottom:10px;
 	float:left;
 }
@@ -54,4 +60,26 @@ nav {
 	padding:10px;
 	text-align: center;
 	width:100%;
+}
+
+@media (max-width:991px) {
+	article {
+		width:100%;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+	article {
+		width:50%;
+	}
+}
+
+@media (min-width:1200px) {
+	
+	article {
+		width:33.33%;
+	}	
+	#a4 {
+		width:100%;
+	}
 }
