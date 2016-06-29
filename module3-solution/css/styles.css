@@ -90,7 +90,7 @@ section a:hover {
 
 @media (min-width:768px) and (max-width:991px) {
 	.row > section > div, .row > section > div {
-		min-height:838px;
+		min-height:1088px;
 	}
 
 	.row > section > .div-sushi {
