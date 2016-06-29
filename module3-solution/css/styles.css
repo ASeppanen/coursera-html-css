@@ -1,19 +1,28 @@
 .row {
 	margin:30px 10px 30px 10px;
+	background-color:#fff;
+	padding-bottom:20px;
 }
 
-section {
-	min-height:1000px;
-	background-color:#999;
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+.col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10,
+.col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
 	color:#000;
-	border-radius: 5px;
-	margin-top:15px;
+	margin:0px;
+	padding:0px;
 }
 
-h2 {
+h3 {
 	font-size:1.8em;
+	margin-top:5px;
+	margin-bottom: 5px;
 }
 
+hr {
+	margin:5px 0px 10px 0px;
+}
 .navbar {
 	margin-bottom:0px;
 	background-color:#666;
@@ -30,19 +39,67 @@ h2 {
 	margin:10px 0px 10px 10px;
 }
 
-ul li {
+.navbar-default .navbar-nav>li:nth-child(2), .navbar-default .navbar-nav>li:nth-child(3)  {
+	border-top:solid 1px #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
 	color:#fff;
 	text-align:center;
 	font-size: 1.1em;
 	padding:10px 0px 10px 10px;
 }
 
-ul li:hover {
+
+.navbar-nav {
+	margin:0px;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+	color:#fff;
+	text-align:center;
+	font-size: 1.1em;
+	padding:10px 0px 10px 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
 	background-color:#666;
 }
 
-@media(max-width: 768px) {
+section a {
+	color:#935353;
+	font-weight: bold;
+}
+
+section a:hover {
+	color:#522e2e;
+	text-decoration:none;
+}
+
+.back-to-top {
+	margin-top:10px;
+}
+
+.div {
+	margin:5px 5px 5px 5px;
+	background-color: #bfbfbf;
+	padding:10px;
+	border-radius: 5px;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.row > section > div, .row > section > div {
+		min-height:838px;
+	}
+
+	.row > section > .div-sushi {
+		min-height:100%;
+	}
+}
+
+@media(max-width: 767px) {
 	.navbar-collapse {
-		background-color:#996666;
+		background-color:#ac6c6c;
+		padding:0px;
 	}
 }
