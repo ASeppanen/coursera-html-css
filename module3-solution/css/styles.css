@@ -30,13 +30,11 @@ hr {
 	border-radius: 0;
 }
 
-.navbar-header {
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+	margin-top:10px;
 	color:#fff;
 	font-size:2em;
-}
-
-.navbar-header p {
-	margin:10px 0px 10px 10px;
+	color:#fff;
 }
 
 .navbar-default .navbar-nav>li:nth-child(2), .navbar-default .navbar-nav>li:nth-child(3)  {
