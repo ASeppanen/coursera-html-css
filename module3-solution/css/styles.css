@@ -23,6 +23,7 @@ h3 {
 hr {
 	margin:5px 0px 10px 0px;
 }
+
 .navbar {
 	margin-bottom:0px;
 	background-color:#666;
@@ -32,6 +33,7 @@ hr {
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
 	margin-top:10px;
+	margin-bottom:10px;
 	color:#fff;
 	font-size:2em;
 	color:#fff;
