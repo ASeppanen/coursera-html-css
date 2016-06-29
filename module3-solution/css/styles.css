@@ -25,14 +25,15 @@ hr {
 }
 
 .navbar {
+	padding-top:10px;
 	margin-bottom:0px;
 	background-color:#666;
 	border-color:#000;
 	border-radius: 0;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-	margin-top:10px;
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active, .navbar-default .navbar-brand:visited {
 	margin-bottom:10px;
 	color:#fff;
 	font-size:2em;
