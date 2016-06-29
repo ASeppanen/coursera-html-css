@@ -1,0 +1,48 @@
+.row {
+	margin:30px 10px 30px 10px;
+}
+
+section {
+	min-height:1000px;
+	background-color:#999;
+	color:#000;
+	border-radius: 5px;
+	margin-top:15px;
+}
+
+h2 {
+	font-size:1.8em;
+}
+
+.navbar {
+	margin-bottom:0px;
+	background-color:#666;
+	border-color:#000;
+	border-radius: 0;
+}
+
+.navbar-header {
+	color:#fff;
+	font-size:2em;
+}
+
+.navbar-header p {
+	margin:10px 0px 10px 10px;
+}
+
+ul li {
+	color:#fff;
+	text-align:center;
+	font-size: 1.1em;
+	padding:10px 0px 10px 10px;
+}
+
+ul li:hover {
+	background-color:#666;
+}
+
+@media(max-width: 768px) {
+	.navbar-collapse {
+		background-color:#996666;
+	}
+}
